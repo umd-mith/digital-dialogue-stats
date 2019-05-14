@@ -16,7 +16,7 @@ def get(path, params):
 
 page = 0
 out = csv.writer(open('stats.csv', 'w'))
-out.writerow(['title', 'created', 'plays'])
+out.writerow(['title', 'created', 'plays', 'url'])
 
 while True:
     page += 1
